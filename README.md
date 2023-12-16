@@ -26,7 +26,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone [https://github.com/your-username/PCGameShoppingApp.git](https://github.com/TrickSoLogic/PCGameShoppingApp.git)
+git clone [https://github.com/TrickSoLogic/PCGameShoppingApp.git](https://github.com/TrickSoLogic/PCGameShoppingApp.git)
 Open the solution file in Visual Studio.
 
 Update the connection string in appsettings.json for your local database.
