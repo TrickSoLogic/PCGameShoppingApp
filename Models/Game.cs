@@ -18,7 +18,7 @@ namespace PCGameShoppingApp.Models
         public string Description { get; set; }
         [Display(Name = "Price")]
         public double Price { get; set; }
-        [Display(Name = "Release Date")]
+        [Display(Name = "Release Date")] 
         public DateTime ReleaseDate { get; set; }
         [Display(Name = "Category")]
         public GameCategory Category { get; set; }

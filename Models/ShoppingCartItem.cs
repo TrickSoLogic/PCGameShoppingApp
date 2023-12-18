@@ -12,4 +12,4 @@ namespace PCGameShoppingApp.Models
 
         public string ShoppingCartId { get; set; }
     }
-}
+} 

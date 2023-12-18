@@ -18,7 +18,7 @@ namespace PCGameShoppingApp.Data.Services
             var orders = await _appDbContext.Orders.Include(order => order.OrderItems)
                                              .ThenInclude(orderItem => orderItem.Game).Include(order => order.User).ToListAsync();
 
-            if(userRole != "Admin")
+            if(userRole != "Admin") 
                 orders = orders.Where(order => order.UserId == userId).ToList();
 
             return orders;

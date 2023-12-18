@@ -22,7 +22,7 @@ namespace PCGameShoppingApp.Models
 
         [Display(Name = "Description")]
         [Required(ErrorMessage = "Description is required")]
-        public string Description { get; set; }
+        public string Description { get; set; } 
 
         // Relationships
         public List<Game>? Games { get; set; }

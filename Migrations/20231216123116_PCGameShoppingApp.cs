@@ -22,7 +22,7 @@ namespace PCGameShoppingApp.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AspNetRoles", x => x.Id);
+                    table.PrimaryKey("PK_AspNetRoles", x => x.Id); 
                 });
 
             migrationBuilder.CreateTable(

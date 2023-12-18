@@ -5,7 +5,7 @@ using PCGameShoppingApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+ 
 namespace PCGameShoppingApp.Controllers
 {
     [Authorize(Roles = UserRoles.Admin)]

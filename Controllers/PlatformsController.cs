@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace PCGameShoppingApp.Controllers
-{
+{ 
     [Authorize(Roles = UserRoles.Admin)]
     public class PlatformsController : Controller
     {

@@ -13,7 +13,7 @@ namespace PCGameShoppingApp.Models
 
         // Game
         public int GameId { get; set; }
-        [ForeignKey("GameId")]
+        [ForeignKey("GameId")] 
         public Game Game { get; set; }
 
         // Order

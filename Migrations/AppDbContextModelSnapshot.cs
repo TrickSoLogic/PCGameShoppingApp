@@ -22,7 +22,7 @@ namespace PCGameShoppingApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b => 
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");

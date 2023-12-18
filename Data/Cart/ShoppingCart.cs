@@ -12,7 +12,7 @@ namespace PCGameShoppingApp.Data.Cart
 
         public ShoppingCart(AppDbContext appDbContext)
         {
-            _appDbContext = appDbContext;
+            _appDbContext = appDbContext; 
         }
 
         public static ShoppingCart GetShoppingCart(IServiceProvider serviceProvider)

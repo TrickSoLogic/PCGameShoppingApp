@@ -19,7 +19,7 @@ namespace PCGameShoppingApp.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
             _appDbContext = appDbContext;
-        }
+        } 
 
         public async Task<IActionResult> Users()
         {

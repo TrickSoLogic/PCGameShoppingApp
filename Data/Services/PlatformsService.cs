@@ -7,4 +7,4 @@ namespace PCGameShoppingApp.Data.Services
     {
         public PlatformsService(AppDbContext appDbContext) : base(appDbContext) { }
     }
-}
+} 

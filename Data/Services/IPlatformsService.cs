@@ -5,3 +5,4 @@ namespace PCGameShoppingApp.Data.Services
 {
     public interface IPlatformsService : IEntityBaseRepository<Platform> { }
 }
+ 

@@ -12,4 +12,4 @@ namespace PCGameShoppingApp.Data.Services
         Task UpdateGameAsync(NewGameVM newGameVM);
         Task RemoveGameAsync(int id);
     }
-}
+} 

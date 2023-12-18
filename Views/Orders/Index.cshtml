@@ -28,7 +28,7 @@
                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                     {
                         <td> @order.User.FullName </td>
-                    }
+                    } 
                     <td>
                         <ul style="list-style-type:none">
                             @foreach (var product in order.OrderItems)

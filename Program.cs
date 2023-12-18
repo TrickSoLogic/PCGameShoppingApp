@@ -15,7 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Services.AddScoped<IDevelopersService, DevelopersService>();
 builder.Services.AddScoped<IPublishersService, PublishersService>();
 builder.Services.AddScoped<IPlatformsService, PlatformsService>();
-builder.Services.AddScoped<IGamesService, GamesService>();
+builder.Services.AddScoped<IGamesService, GamesService>(); 
 builder.Services.AddScoped<IOrdersService, OrdersService>();
 
 builder.Services.AddHttpContextAccessor();

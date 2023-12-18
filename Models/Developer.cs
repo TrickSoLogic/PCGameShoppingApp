@@ -20,7 +20,7 @@ namespace PCGameShoppingApp.Models
         [Required(ErrorMessage = "Biography is required")]
         public string Biography { get; set; }
 
-        // Relationships
+        // Relationships 
         public List<Developer_Game>? Developers_Games { get; set; }
     }
 }

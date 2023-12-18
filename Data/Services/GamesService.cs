@@ -19,7 +19,7 @@ namespace PCGameShoppingApp.Data.Services
             var newGame = new Game()
             {
                 ImageURL = newGameVM.ImageURL,
-                Name = newGameVM.Name,
+                Name = newGameVM.Name, 
                 Description = newGameVM.Description,
                 Price = newGameVM.Price,
                 ReleaseDate = newGameVM.ReleaseDate,

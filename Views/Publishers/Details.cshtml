@@ -26,7 +26,7 @@
                     <label asp-for="Description" class="form-label"></label>
                     <input asp-for="Description" class="form-control" readonly />
                 </div>
-                <div class="form-group" style="margin-top:10px">
+                <div class="form-group" style="margin-top:10px"> 
                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                     {
                         <a class="btn btn-outline-primary float-end" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>

@@ -16,5 +16,5 @@ namespace PCGameShoppingApp.Models
 
         // Relationships
         public List<OrderItem> OrderItems { get; set; }
-    }
+    } 
 }

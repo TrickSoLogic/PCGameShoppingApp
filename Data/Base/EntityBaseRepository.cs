@@ -13,7 +13,7 @@ namespace PCGameShoppingApp.Data.Base
         }
 
         public async Task AddAsync(T entity)
-        {
+        { 
             await _appDbContext.Set<T>().AddAsync(entity);
             await _appDbContext.SaveChangesAsync();
         }

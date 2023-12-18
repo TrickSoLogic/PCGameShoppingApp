@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace PCGameShoppingApp.Controllers
+namespace PCGameShoppingApp.Controllers 
 {
     [Authorize(Roles = UserRoles.Admin)]
     public class PublishersController : Controller

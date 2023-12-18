@@ -8,4 +8,4 @@ namespace PCGameShoppingApp.Data.Services
     {
         public DevelopersService(AppDbContext appDbContext) : base(appDbContext) { }
     }
-}
+} 

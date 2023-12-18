@@ -11,4 +11,4 @@ namespace PCGameShoppingApp.Data.Base
         Task RemoveAsync(int id);
         Task UpdateAsync(int id, T entity);
     }
-}
+} 
